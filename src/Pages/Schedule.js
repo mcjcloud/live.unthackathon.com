@@ -19,7 +19,7 @@ export default class Schedule extends Component {
                         <ScrollView title="April 6th" style={{width: '30%', height: height + 'px', marginTop: mTop + 'px', backgroundColor: Global.colors.tertiary}}>
                             {Global.schedule.sixth.map(elem => {
                                 return (
-                                    <h2>{elem.title}</h2>
+                                    <p>{elem.title}</p>
                                 )
                             })}
                         </ScrollView>
