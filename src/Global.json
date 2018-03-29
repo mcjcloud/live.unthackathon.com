@@ -1,0 +1,19 @@
+{
+    "navbarHeight": 50,
+    "colors": {
+        "primary": "#419A31",
+        "secondary": "#5B697E",
+        "tertiary": "#F4F5F4"
+    },
+    "schedule": {
+        "hourHeight": 25,
+        "sixth": [
+            {
+                "startTime": "6:00PM",
+                "endTime": "10:00PM",
+                "title": "Check-In",
+                "duration": 4
+            }
+        ]
+    }
+}

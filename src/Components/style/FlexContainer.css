@@ -1,0 +1,10 @@
+.FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* apply flexbox attributes to all div children */
+.FlexContainer > div {
+    /* max-width: 500px; */
+    width: 100%;
+}

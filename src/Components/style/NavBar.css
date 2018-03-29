@@ -1,0 +1,41 @@
+.NavBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightgray;
+}
+.NavBar h2 {
+    float: right;
+    margin: 0;
+    line-height: 50px;
+    padding-right: 20px;
+}
+.NavBar h2::after {
+    clear: both;
+}
+.NavBar p {
+    float: left;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    min-width: 30px;
+}
+.NavBar p::after {
+    clear: both;
+}
+.NavBar p:hover {
+    background-color: gray;
+}
+
+.NavBar a {
+    color: black;
+}
+.NavBar a:hover {
+    cursor: pointer;
+}
+.NavBar img {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}

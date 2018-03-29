@@ -1,0 +1,12 @@
+.ScrollView {
+    overflow-y: auto;
+    text-align: center;
+}
+.ScrollView > h2 {
+    position:fixed;
+    text-align: center;
+    width: inherit;
+    margin-top: 0;
+    height: 50px;
+    line-height: 50px;
+}
