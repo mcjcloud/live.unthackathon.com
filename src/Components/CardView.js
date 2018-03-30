@@ -13,7 +13,7 @@ export default class CardView extends Component {
         let wS = this.props.widthScale
         let hS = this.props.heightScale
         let w = 0
-        let height = window.innerHeight - 50
+        let height = window.innerHeight - Global.navbarHeight
         if(window.innerWidth * wS - 80 < height * hS - 40) {
             w = height * hS - 20
         }
@@ -25,7 +25,7 @@ export default class CardView extends Component {
             height: w,
             width: w,
             backgroundColor: Global.colors.tertiary,
-            margin: 10 + 'px'
+            margin: 10 + 'px',
         }
 
         return (

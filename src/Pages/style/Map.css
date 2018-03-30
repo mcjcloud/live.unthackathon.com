@@ -1,0 +1,6 @@
+.MapPanel > div {
+    float: left;
+}
+.MapPanel::after {
+    clear: both;
+}
