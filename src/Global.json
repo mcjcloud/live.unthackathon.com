@@ -9,11 +9,82 @@
         "hourHeight": 25,
         "sixth": [
             {
-                "startTime": "6:00PM",
+                "startTime": "5:00PM",
                 "endTime": "10:00PM",
-                "title": "Check-In",
-                "duration": 4
+                "title": "Check-In and Chiloso Dinner",
+                "duration": 5
+            },
+            {
+                "startTime": "6:00PM",
+                "endTime": "7:00PM",
+                "title": "Kickoff Event",
+                "duration": 1
+            },
+            {
+                "startTime": "7:00PM",
+                "endTime": "8:00PM",
+                "title": "Learn about prizes and Coding begins!",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00AM",
+                "title": "Insomnia Cookies Midnight Snack",
+                "duration": 1
             }
+        ],
+        "seventh": [
+            {
+                "startTime": "10:00AM",
+                "title": "Brunch by Chiloso",
+                "duration": 1
+            },
+            {
+                "startTime": "1:00PM",
+                "endTime": "3:00PM",
+                "title": "Intro to Google Maps API by Zach Eisenhauer",
+                "duration": 2
+            },
+            {
+                "startTime": "3:00PM",
+                "endTime": "5:00PM",
+                "title": "Intro to WebVR with A-Frame by Damon Hernandez",
+                "duration": 2
+            },
+            {
+                "startTime": "5:00PM",
+                "endTime": "7:00PM",
+                "title": "How to Make Technology Into a Startup by Nancy Hong",
+                "duration": 2
+            },
+            {
+                "startTime": "6:00PM",
+                "title": "Dinner by Chiloso",
+                "duration": 1
+            },
+            {
+                "startTime": "7:00PM",
+                "title": "Social",
+                "duration": 1
+            },
+            {
+                "startTime": "7:00PM",
+                "endTime": "9:00PM",
+                "title": "Overwatch League - NYXL vs. London Spitfire",
+                "duration": 2
+            },
+            {
+                "startTime": "10:00PM",
+                "title": "Social",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00AM",
+                "title": "Midnight Snack",
+                "duration": 1
+            }
+        ],
+        "eighth": [
+
         ]
     }
 }

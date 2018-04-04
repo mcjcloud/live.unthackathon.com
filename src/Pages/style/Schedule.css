@@ -1,3 +1,8 @@
 .Schedule {
     height: 100%;
+    text-align: center;
+}
+.ScrollView-Section td {
+    text-align: center;
+    width: 50%;
 }

@@ -1,12 +1,18 @@
 .ScrollView {
     overflow-y: auto;
     text-align: center;
+    /* height: 100%; */
 }
-.ScrollView > h1 {
-    position:fixed;
+.ScrollView h1 {
     text-align: center;
     width: inherit;
     margin-top: 0;
     height: 60px;
     line-height: 60px;
+}
+.ScrollView > .card-panel {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    min-height: 100%;
 }
