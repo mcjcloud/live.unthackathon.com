@@ -23,32 +23,28 @@ export default class Home extends Component {
             <FullHeightView style={{backgroundColor: Global.colors.secondary}}>
                 <FlexContainer style={{height: '100%'}}>
                     {/* <div class="row" style={{height: '5%'}}></div> */}
-                    <div class="row section" style={{height: '47%'}}>
-                        <CardView>
-                            <Timeline
-                                dataSource={{
-                                    sourceType: 'widget',
-                                    widgetId: '978024429673476096'
-                                }}
-                                options={{
-                                    height: w
-                                }}
-                                onLoad={() => console.log('Timeline is loaded!')}
-                            />
-                        </CardView>
-                        <CardView title="DevPost">
-                        </CardView>
-                        <CardView title="Wi-Fi">
-                        </CardView>
-                    </div>
-                    <div class="row section" style={{height: '47%'}}>
-                        <CardView title="Github">
-                        </CardView>
-                        <CardView title="Slack">
-                        </CardView>
-                        <CardView title="Contact">
-                        </CardView>
-                    </div>
+                    <CardView>
+                        <Timeline
+                            dataSource={{
+                                sourceType: 'widget',
+                                widgetId: '978024429673476096'
+                            }}
+                            options={{
+                                height: w
+                            }}
+                            onLoad={() => console.log('Timeline is loaded!')}
+                        />
+                    </CardView>
+                    <CardView title="DevPost">
+                    </CardView>
+                    <CardView title="Wi-Fi">
+                    </CardView>
+                    <CardView title="Github">
+                    </CardView>
+                    <CardView title="Slack">
+                    </CardView>
+                    <CardView title="Contact">
+                    </CardView>
                 </FlexContainer>
             </FullHeightView>
         )

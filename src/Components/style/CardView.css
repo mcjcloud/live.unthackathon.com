@@ -1,7 +1,12 @@
 .CardView {
     text-align: center;
+    max-width: 500px;
+    max-height: 500px;
+    height: 47%;
+    margin: 5px;
 }
-.CardView > h1 {
+.CardView h1 {
     margin: 0;
     padding: 20px;
+    font-size: 18pt;
 }
