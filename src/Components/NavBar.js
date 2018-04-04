@@ -19,7 +19,7 @@ export default class NavBar extends Component {
             </div>
             */
             <div class="NavBar">
-                <nav class="navbar-fixed">
+                <nav class="navbar-fixed" style={{backgroundColor: Global.colors.primary}}>
                     <div class="nav-wrapper">
                     <Link to={'/home'} class="brand-logo">Logo</Link>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>

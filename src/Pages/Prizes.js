@@ -1,3 +1,5 @@
+import './style/Prizes.css'
+
 import React, { Component } from 'react'
 
 import CardView from '../Components/CardView'

@@ -1,5 +1,5 @@
 .ScrollView {
-    overflow-y: auto;
+    overflow-y: hidden;
     text-align: center;
     /* height: 100%; */
 }
@@ -11,8 +11,8 @@
     line-height: 60px;
 }
 .ScrollView > .card-panel {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 10px;
     width: 100%;
-    min-height: 100%;
+    max-width: 500px;
+    overflow-y: scroll;
 }
