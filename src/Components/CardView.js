@@ -13,10 +13,14 @@ export default class CardView extends Component {
         let cardStyle = this.props.style || {}
 
         return (
-            <div class="CardView col s4" style={cardStyle}>
-                <div class="card-panel" style={{padding: '0', height: '100%'}}>
-                    {this.props.title && <h1 className="card-title" style={{backgroundColor: Global.colors.primary}}>{this.props.title}</h1>}
-                    {this.props.children}
+            <div class="CardView" style={cardStyle}>
+                <div class="card-panel card light-green darken-3" style={{padding: '0', height: '100%'}}>
+                    {/* {this.props.title && <h1 className="card-title" style={{backgroundColor: Global.colors.primary}}>{this.props.title}</h1>} */}
+                    {/* {this.props.children} */}
+                    <div class="card-content black-text">
+                        <span class="card-title">Card Title</span>
+                        {this.props.children}
+                    </div>
                 </div>
             </div>
         )

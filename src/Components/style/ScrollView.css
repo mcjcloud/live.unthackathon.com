@@ -1,18 +1,42 @@
 .ScrollView {
     overflow-y: hidden;
-    text-align: center;
-    /* height: 100%; */
-}
-.ScrollView h1 {
-    text-align: center;
-    width: inherit;
-    margin-top: 0;
-    height: 60px;
-    line-height: 60px;
+    overflow-x: hidden;
+    font-size: 18pt;
 }
 .ScrollView > .card-panel {
+    background-color: inherit;
     margin: 10px;
+    padding: 0;
+    padding-left: 10px;
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
     overflow-y: scroll;
+}
+.ScrollView .card-content {
+    padding: 0;
+}
+.ScrollView > .card {
+    background-color: inherit;
+    padding: 0;
+    width: 100%;
+    /* max-width: 500px; */
+    overflow-y: scroll;
+    color: black;
+}
+.ScrollView .card-title {
+    font-size: 24pt;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+.ScrollView-content p {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 12pt;
+}
+.ScrollView a {
+    color: #225c8a;
 }

@@ -4,6 +4,7 @@
     width: 100%;
     height: 60px;
     background-color: lightgray;
+    z-index: 10;
 }
 .NavBar h2 {
     float: right;
@@ -29,7 +30,7 @@
 }
 
 .NavBar a {
-    color: black;
+    color: white;
 }
 .NavBar a:hover {
     cursor: pointer;

@@ -10,81 +10,123 @@
         "sixth": [
             {
                 "startTime": "5:00PM",
-                "endTime": "10:00PM",
-                "title": "Check-In and Chiloso Dinner",
-                "duration": 5
+                "title": "Check-In begins",
+                "location": "Check-In",
+                "duration": 1
             },
             {
                 "startTime": "6:00PM",
-                "endTime": "7:00PM",
                 "title": "Kickoff Event",
+                "location": "Main Stage",
+                "duration": 1
+            },
+            {
+                "startTime": "6:00PM",
+                "title": "Chiloso Dinner",
+                "location": "Coder's Cafe",
                 "duration": 1
             },
             {
                 "startTime": "7:00PM",
-                "endTime": "8:00PM",
-                "title": "Learn about prizes and Coding begins!",
+                "title": "Prizes Q & A",
+                "location": "Sponsor Street",
+                "duration": 1
+            },
+            {
+                "startTime": "9:00PM",
+                "title": "Movie Social",
+                "location": "Presentation Palace",
                 "duration": 1
             },
             {
                 "startTime": "12:00AM",
-                "title": "Insomnia Cookies Midnight Snack",
+                "title": "Insomnia Cookies",
+                "location": "Coder's Cafe",
                 "duration": 1
             }
         ],
         "seventh": [
             {
-                "startTime": "10:00AM",
-                "title": "Brunch by Chiloso",
+                "startTime": "2:00AM",
+                "title": "Trivia Social",
+                "location": "Presentation Palace",
+                "duration": 1
+            },
+            {
+                "startTime": "11:00AM",
+                "title": "Chiloso Brunch",
+                "location": "Coder's Cafe",
                 "duration": 1
             },
             {
                 "startTime": "1:00PM",
-                "endTime": "3:00PM",
-                "title": "Intro to Google Maps API by Zach Eisenhauer",
-                "duration": 2
+                "title": "Intro to Google Maps by Zach Eisenhauer",
+                "location": "Presentation Palace",
+                "duration": 1
             },
             {
                 "startTime": "3:00PM",
-                "endTime": "5:00PM",
                 "title": "Intro to WebVR with A-Frame by Damon Hernandez",
-                "duration": 2
+                "location": "Presentation Palace",
+                "duration": 1
             },
             {
                 "startTime": "5:00PM",
-                "endTime": "7:00PM",
                 "title": "How to Make Technology Into a Startup by Nancy Hong",
-                "duration": 2
+                "location": "Presentation Palace",
+                "duration": 1
             },
             {
                 "startTime": "6:00PM",
-                "title": "Dinner by Chiloso",
+                "title": "Chiloso Dinner",
+                "location": "Coder's Cafe",
                 "duration": 1
             },
             {
                 "startTime": "7:00PM",
-                "title": "Social",
+                "title": "Overwatch League Watch Party",
+                "location": "Presentation Palace",
                 "duration": 1
             },
             {
-                "startTime": "7:00PM",
-                "endTime": "9:00PM",
-                "title": "Overwatch League - NYXL vs. London Spitfire",
-                "duration": 2
-            },
-            {
-                "startTime": "10:00PM",
-                "title": "Social",
+                "startTime": "9:00PM",
+                "endTime": "11:00PM",
+                "title": "Cyber Security CTF",
+                "location": "Presentation Palace",
                 "duration": 1
             },
             {
                 "startTime": "12:00AM",
                 "title": "Midnight Snack",
+                "location": "Coder's Cafe",
                 "duration": 1
             }
         ],
         "eighth": [
-
+            {
+                "startTime": "11:00AM",
+                "title": "Chiloso Brunch",
+                "location": "Coder's Cafe",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00PM",
+                "title": "Project Submission Deadline",
+                "location": "NA",
+                "duration": 1
+            },
+            {
+                "startTime": "2:00PM",
+                "title": "Present to Judges",
+                "location": "NA",
+                "duration": 1
+            },
+            {
+                "startTime": "3:00PM",
+                "title": "Prize Announcements",
+                "location": "Main Stage",
+                "duration": 1
+            }
         ]
     }
 }

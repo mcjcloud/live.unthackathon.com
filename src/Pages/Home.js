@@ -10,7 +10,7 @@ import ScrollView from '../Components/ScrollView'
 export default class Home extends Component {
     render() {
         return (
-            <FullHeightView style={{backgroundColor: Global.colors.secondary}}>
+            <FullHeightView>
                 <FlexContainer style={{height: '100%'}}>
                     {/* <div class="row" style={{height: '5%'}}></div> */}
                     <ScrollView style={{maxWidth: '400px'}} >
@@ -20,27 +20,24 @@ export default class Home extends Component {
                                 widgetId: '978024429673476096'
                             }}
                             options={{
-                                height: 300
+                                height: 400
                             }}
                             onLoad={() => console.log('Timeline is loaded!')}
                         />
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="DevPost">
-                            <p>test</p>
-                            <p>test</p>
-                            <p>test</p>
+                        <p>You can find the DevPost <a href="https://hackunt2018.devpost.com">here</a></p>
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="Wi-Fi">
-                    <p>test</p>
-                    <p>test</p>
-                    <p>test</p>
+                        <p>If you are a UNT student, sign in to eaglenet with your EUID and password.</p>
+                        <p>If you are a visitor, you will be given a card with the Wi-Fi info</p>
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="Github">
                     <p>test</p>
                     <p>test</p>
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="Slack">
-                    <p>test</p>
+                    <p>Please join our slack <a href="https://hackunt.slack.com">here</a></p>
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="Contact">
                     <p>test</p>

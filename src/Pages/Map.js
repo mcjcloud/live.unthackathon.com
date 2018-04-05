@@ -15,15 +15,11 @@ export default class Map extends Component {
     }
     render() {
         return (
-            <div className="Map" style={{backgroundColor: Global.colors.secondary}}>
+            <div className="Map">
                 <FullHeightView>
                     <FlexContainer style={{alignItems: 'center', height: window.innerHeight - Global.navbarHeight}}>
-                        <div className="MapPanel" style={{width: '70%', height: '80%'}}>
-                            <ScrollView title={'Map'} style={{width: (window.innerWidth * 0.7) * 0.3 + 'px', height: '100%', backgroundColor: Global.colors.tertiary}}>
-                                <h1>Floor 1</h1>
-                                <h1>Floor 2</h1>
-                            </ScrollView>
-                            <div style={{width: '70%', height: '100%'}}><img src={this.state.selectedImage} style={{height: '100%'}} alt={this.state.selectedImage} /></div>
+                        <div align="center" className="MapPanel" style={{width: '70%', height: '80%'}}>
+                            <img src={this.state.selectedImage} style={{height: '100%'}} alt={this.state.selectedImage} />
                         </div>
                     </FlexContainer>
                 </FullHeightView>
