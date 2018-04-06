@@ -14,13 +14,19 @@ export default class CardView extends Component {
 
         return (
             <div class="CardView" style={cardStyle}>
-                <div class="card-panel card light-green darken-3" style={{padding: '0', height: '100%'}}>
+                <div class="card light-green darken-3" style={{height: '100%'}}>
                     {/* {this.props.title && <h1 className="card-title" style={{backgroundColor: Global.colors.primary}}>{this.props.title}</h1>} */}
                     {/* {this.props.children} */}
-                    <div class="card-content black-text">
-                        <span class="card-title">Card Title</span>
+                    {/* <div class="card-content black-text">
                         {this.props.children}
+                    </div> */}
+                    <div class="card-image">
+                        <img src={this.props.img} alt="none" />
+                        {/* {this.props.title && <span class="card-title">{this.props.title}</span>} */}
                     </div>
+                    {(this.props.children) && <div class="card-content" style={{backgroundColor: 'white', padding: '10px'}}>
+                        {this.props.children}
+                    </div>}
                 </div>
             </div>
         )

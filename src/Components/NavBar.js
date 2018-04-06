@@ -9,15 +9,14 @@ export default class NavBar extends Component {
     render() {
         return (
             <div class="NavBar">
-                <nav class="navbar-fixed light-green darken-3" style={{minWidth: '450px', overflow: 'auto'}}>
+                <nav class="navbar-fixed white" style={{minWidth: '450px', overflow: 'auto'}}>
                     <div class="nav-wrapper" style={{height: '100%'}}>
                         {/* <Link to={'/home'} class="brand-logo left" style={{height: '100%'}}><img style={{height: '100%'}} src={logo} /></Link> */}
                         {/* <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> */}
                         <ul id="nav-mobile" class="left" style={{height: '100%'}}>
-                            <li style={{height: '100%'}}><Link to={'/home'} style={{height: '100%'}}><img style={{height: '100%'}} src={logo} /></Link></li>
+                            <li style={{height: '100%'}}><a href={'https://unthackathon.com'} style={{height: '100%'}}><img style={{height: '90%'}} src={logo} /></a></li>
                             <li><Link to={'/home'}>Home</Link></li>
                             <li><Link to={'/schedule'}>Schedule</Link></li>
-                            <li><Link to={'/map'}>Map</Link></li>
                             <li><Link to={'/prizes'}>Prizes</Link></li>
                         </ul>
                     </div>

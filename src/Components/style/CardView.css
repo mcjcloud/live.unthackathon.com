@@ -10,3 +10,6 @@
     padding: 20px;
     font-size: 18pt;
 }
+.CardView .card-content {
+    padding: 0;
+}

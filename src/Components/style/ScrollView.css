@@ -5,9 +5,8 @@
 }
 .ScrollView > .card-panel {
     background-color: inherit;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 0;
-    padding-left: 10px;
     width: 100%;
     /* max-width: 500px; */
     overflow-y: scroll;
@@ -21,7 +20,7 @@
     width: 100%;
     /* max-width: 500px; */
     overflow-y: scroll;
-    color: black;
+    color: #263628;
 }
 .ScrollView .card-title {
     font-size: 24pt;
@@ -35,6 +34,7 @@
 .ScrollView-content p {
     padding-top: 20px;
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 12pt;
 }
 .ScrollView a {

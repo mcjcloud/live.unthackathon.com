@@ -40,8 +40,20 @@
             },
             {
                 "startTime": "12:00AM",
+                "title": "On-site Registration Closes",
+                "location": "Info Booth",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00AM",
                 "title": "Insomnia Cookies",
                 "location": "Coder's Cafe",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00AM",
+                "title": "Discovery Park Gates close",
+                "location": "everywhere",
                 "duration": 1
             }
         ],
@@ -50,6 +62,12 @@
                 "startTime": "2:00AM",
                 "title": "Trivia Social",
                 "location": "Presentation Palace",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00AM",
+                "title": "Discovery Park Gates open",
+                "location": "everywhere",
                 "duration": 1
             },
             {
@@ -99,6 +117,12 @@
                 "startTime": "12:00AM",
                 "title": "Midnight Snack",
                 "location": "Coder's Cafe",
+                "duration": 1
+            },
+            {
+                "startTime": "12:00AM",
+                "title": "Discovery Park Gates close",
+                "location": "everywhere",
                 "duration": 1
             }
         ],

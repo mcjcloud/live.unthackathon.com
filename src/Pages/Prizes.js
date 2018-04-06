@@ -49,6 +49,9 @@ export default class Prizes extends Component {
                     <ScrollView title="DAIR" style={{marginTop: '10px', marginBottom: '10px', maxWidth: '400px'}}>
                         <p>The winner will receive $500 for the best use of disparate or analytic data to help inform data-based decision making on a real world problem/challenge.</p>
                     </ScrollView>
+                    <ScrollView title="The Factory" style={{marginTop: '10px', marginBottom: '10px', maxWidth: '400px'}}>
+                        <p>By attending the Microcontroller presentations, you can win a free RedBoard.</p>
+                    </ScrollView>
                 </FlexContainer>
             </div>
         )

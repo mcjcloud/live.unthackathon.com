@@ -14,8 +14,9 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div className="App grey lighten-1">
+                <div className="App light-green darken-3">
                     <NavBar />
+                    <Route exact path="/" component={HomePage} />
                     <Route path="/home" component={HomePage} />
                     <Route path="/schedule" component={SchedulePage} />
                     <Route path="/map" component={MapPage} />
