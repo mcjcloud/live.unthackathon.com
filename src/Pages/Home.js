@@ -30,17 +30,20 @@ export default class Home extends Component {
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="Wi-Fi">
                         <p>If you are a UNT student, sign in to eaglenet with your EUID and password.</p>
-                        <p>If you are a visitor, you will be given a card with the Wi-Fi info</p>
+                        <p>If you are a visitor, you will be given a card with the Wi-Fi info at the Info Booth</p>
                     </ScrollView>
-                    <ScrollView style={{maxWidth: '400px'}}  title="Github">
+                    {/* <ScrollView style={{maxWidth: '400px'}}  title="Github">
                     <p>test</p>
                     <p>test</p>
-                    </ScrollView>
+                    </ScrollView> */}
                     <ScrollView style={{maxWidth: '400px'}}  title="Slack">
-                    <p>Please join our slack <a href="https://hackunt.slack.com">here</a></p>
+                        <p>Please join our slack <a href="https://hackunt.slack.com">here</a></p>
                     </ScrollView>
                     <ScrollView style={{maxWidth: '400px'}}  title="Contact">
-                    <p>test</p>
+                        <p>hackunt.slack.com</p>
+                        <p>unthackathon.com</p>
+                        <p>officialhackunt@gmail.com</p>
+                        <p>UNT Police: 940-565-2700</p>
                     </ScrollView>
                 </FlexContainer>
             </FullHeightView>

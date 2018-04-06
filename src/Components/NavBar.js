@@ -9,16 +9,17 @@ export default class NavBar extends Component {
     render() {
         return (
             <div class="NavBar">
-                <nav class="navbar-fixed light-green darken-3">
-                    <div class="nav-wrapper">
-                    <Link to={'/home'} class="brand-logo" style={{height: '100%'}}><img style={{height: '100%'}} src={logo} /></Link>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><Link to={'/home'}>Home</Link></li>
-                        <li><Link to={'/schedule'}>Schedule</Link></li>
-                        <li><Link to={'/map'}>Map</Link></li>
-                        <li><Link to={'/prizes'}>Prizes</Link></li>
-                    </ul>
+                <nav class="navbar-fixed light-green darken-3" style={{minWidth: '450px', overflow: 'auto'}}>
+                    <div class="nav-wrapper" style={{height: '100%'}}>
+                        {/* <Link to={'/home'} class="brand-logo left" style={{height: '100%'}}><img style={{height: '100%'}} src={logo} /></Link> */}
+                        {/* <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> */}
+                        <ul id="nav-mobile" class="left" style={{height: '100%'}}>
+                            <li style={{height: '100%'}}><Link to={'/home'} style={{height: '100%'}}><img style={{height: '100%'}} src={logo} /></Link></li>
+                            <li><Link to={'/home'}>Home</Link></li>
+                            <li><Link to={'/schedule'}>Schedule</Link></li>
+                            <li><Link to={'/map'}>Map</Link></li>
+                            <li><Link to={'/prizes'}>Prizes</Link></li>
+                        </ul>
                     </div>
                     {/* <div class="nav-content fixed">
                         <ul class="tabs tabs-transparent">
